@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# # 提交记录检查
+# npm commitlint --edit $1
+# # 格式化检查
+# npm format:check
+# # eslint检查
+# npm lint:check
+
+
+npx --no-install commitlint --edit "$1"

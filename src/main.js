@@ -5,7 +5,6 @@ import router from '@/router'
 import "swiper/css/swiper.css"
 import Carousel from '@/components/Carousel'
 
-
 // 注册全局组件
 import TypeNav from '@/components/TypeNav' 
 import Pagination from '@/components/Pagination'
